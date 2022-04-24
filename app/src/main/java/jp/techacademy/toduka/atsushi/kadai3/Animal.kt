@@ -1,5 +1,5 @@
 package jp.techacademy.toduka.atsushi.kadai3
-package jp.techacademy.toduka.atsushi.kotlinlog
+
 
 
 abstract class Animal {

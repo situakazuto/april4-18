@@ -9,8 +9,8 @@ open class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-         Human(say)
-        Human(think)
+        human.think()
+        thinkable.hobby()
 
 
     }
