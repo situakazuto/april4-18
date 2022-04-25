@@ -13,10 +13,10 @@ open class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val yamada = Human("山田", 28, "サッカー")
 
-        yamada.say()
-        yamada.think()
+       yamada.say()
+        //yamada.think()
 
-        //human.think()
+        yamada.think()
 
 
     }
