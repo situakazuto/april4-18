@@ -9,8 +9,14 @@ open class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        human.think()
-        thinkable.hobby()
+
+        setContentView(R.layout.activity_main)
+        val yamada = Human("山田", 28, "サッカー")
+
+        yamada.say()
+        yamada.think()
+
+        //human.think()
 
 
     }
